@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 // Function to find the number of times the array is rotated
+
+/*
+O(lgN) solution to finding a number of anti clockwise rotation of a sorted array. 
+*/
+
 int findRotationCount(int arr[], int n)
 {
 	// search space is arr[low..high]
