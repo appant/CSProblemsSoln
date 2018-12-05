@@ -3,6 +3,11 @@
 #include <iostream>
 
 using namespace std;
+
+/*
+O(lgN) solution to finding a first occurence of a number in a sorted array. 
+*/
+
 int findFirstOccurrence(vector<int> arr, int num){
 	int lo = 0;
 	int hi = arr.size() - 1;
